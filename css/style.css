@@ -1,0 +1,34 @@
+/* Resect CSS */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* variaveis */
+:root {
+    --color-light: #ffffff;
+    --color-blue: #6989c5;
+    --transition: .5s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* formatações genericas */
+a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 900;
+    transition: var(--transition);
+}
+
+img {
+    max-width: 100%;
+}
