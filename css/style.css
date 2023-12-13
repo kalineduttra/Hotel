@@ -103,6 +103,10 @@ img {
     transition: var(--transition);
 }
 
+.hotel-item:hover {
+    transform: scale(1.1);
+}
+
 .hotel-item img {
     width: 90%;
     border-radius: 5px;
@@ -117,3 +121,4 @@ img {
     margin: 0 0 3rem;
     width: 80%;
 }
+
