@@ -73,3 +73,10 @@ img {
     margin-bottom: 2rem;
     line-height: 3.6rem;
 }
+
+.hotel-title {
+    font-size: 5vmin;
+    text-aling: center;
+    margin: 4rem 0 2rem;
+    color: var(--color-blue);
+}
